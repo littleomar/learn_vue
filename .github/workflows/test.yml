@@ -29,3 +29,5 @@ jobs:
           SERVER_IP: ${{ secrets.SSH_HOST }} # 引用配置，服务器的host名（IP或者域名domain.com）
           USERNAME: ${{ secrets.SSH_USERNAME }} # 引用配置，服务器登录名
           SERVER_DESTINATION: /chaochao/
+
+
